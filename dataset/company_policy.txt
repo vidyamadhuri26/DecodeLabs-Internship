@@ -1,0 +1,27 @@
+AI Customer Support Company Policy
+
+Refund Policy
+-------------
+1. Customers can request a refund within 7 days of delivery.
+2. Damaged or defective products are eligible for a full refund.
+3. Refunds are processed within 5 business days after approval.
+
+Shipping Policy
+---------------
+1. Shipping delays longer than 10 days are eligible for compensation.
+2. Lost shipments should be escalated to the Logistics Team.
+
+Billing Policy
+--------------
+1. Billing disputes require invoice verification.
+2. Duplicate payments are eligible for a refund after verification.
+
+Technical Support Policy
+------------------------
+1. Critical technical issues should be resolved within 12 hours.
+2. Standard technical issues should be resolved within 24 hours.
+
+General Policy
+--------------
+1. If the policy does not cover a case, escalate it to Customer Support.
+2. Never promise anything outside these policies.

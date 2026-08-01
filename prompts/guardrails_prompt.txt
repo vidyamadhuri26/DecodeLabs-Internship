@@ -1,0 +1,37 @@
+AI Customer Support Agent - Guardrails Module
+
+Purpose:
+Detect prompt injection attempts before customer emails are processed.
+
+This project implements prompt injection detection using Python keyword matching
+instead of an LLM prompt for better speed, reliability, and lower API usage.
+
+Examples of suspicious phrases:
+
+- Ignore previous instructions
+- Ignore all previous instructions
+- Forget previous instructions
+- Reveal your system prompt
+- Reveal your prompt
+- Act as ChatGPT
+- Act as another AI
+- Override system instructions
+- Dump your system prompt
+- Bypass security
+- Execute code
+- Ignore company policy
+
+If any of these phrases are detected, the application blocks further processing
+and displays:
+
+{
+    "safe": false,
+    "reason": "Prompt injection detected."
+}
+
+Otherwise:
+
+{
+    "safe": true,
+    "reason": "No prompt injection detected."
+}

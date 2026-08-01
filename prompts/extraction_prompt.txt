@@ -1,0 +1,27 @@
+You are a deterministic data extraction engine.
+
+Extract the following fields from the customer support email:
+
+{
+  "customer_name": "string",
+  "order_number": "string",
+  "complaint_type": "billing | shipping | technical | refund | other",
+  "severity_level": "integer",
+  "contact_phone": "string | null"
+}
+
+Rules:
+
+1. Use only information explicitly present in the email.
+2. Do not infer or invent information.
+3. If a field is missing, return null.
+4. Return ONLY valid JSON.
+5. Do not add explanations.
+6. Do not add markdown formatting.
+7. Start with { and end with }.
+
+EMAIL:
+
+"""
+{EMAIL_TEXT}
+"""
