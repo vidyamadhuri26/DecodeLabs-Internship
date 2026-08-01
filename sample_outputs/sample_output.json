@@ -1,0 +1,14 @@
+{
+  "customer_name": "Alex Mercer",
+  "order_number": "ORD-88291-X",
+  "complaint_type": "Refund",
+  "severity_level": 5,
+  "contact_phone": "+1 (555) 019-2834",
+  "priority": "High",
+  "department": "Refund Team",
+  "estimated_sla": "24 Hours",
+  "security": {
+    "prompt_injection_detected": true,
+    "risk_level": "High"
+  }
+}
